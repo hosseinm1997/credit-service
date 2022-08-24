@@ -1,9 +1,9 @@
 # Credit service part of "Arvan Cloud" challenge
 
-This service is responsible for handling credit codes.
+This service is responsible for handling credit codes. Its APIs must be private from user direct access in production.
 
 ## Quick start
-To quickly jump into the main logic go to following links:
+To quickly jump into the main logic, go to following links:
 
 ### Visualized documents:
 - [**Process Flow**](https://online.visual-paradigm.com/community/share/arvan-challenge-flow)
