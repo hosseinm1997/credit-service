@@ -5,6 +5,13 @@ This service is responsible for handling credit codes.
 ## Quick start
 To quickly jump into the main logic go to following links:
 
+### Visualized documents:
+- [**Process Flow**](https://online.visual-paradigm.com/community/share/arvan-challenge-flow)
+- [**ERD**](https://online.visual-paradigm.com/community/share/arvan-challenge-erd)
+
+
+
+### Main Endpoints:
 - [Spend credit code API logic](https://github.com/hosseinm1997/credit-service/blob/ab1eda279aa9e2a4d02b4d752e09de0e0f3da42f/http/endpoints/SpendCodeEndpoint.go#L17)
 - [Inquiry credit code API logic](https://github.com/hosseinm1997/credit-service/blob/ab1eda279aa9e2a4d02b4d752e09de0e0f3da42f/http/endpoints/SpendCodeEndpoint.go#L71)
 
@@ -20,6 +27,15 @@ See [utilize_credit_code()](https://github.com/hosseinm1997/credit-service/blob/
 
 ### Architecture
 I Use the dual write strategy for communication between these two microservices. It's better to use distributed transaction management patterns, especially the Saga pattern via the Orchestrator model. 
+
+
+I visualize all inter-microservice communications via **BPMN** notation language.
+[**Process Flow**](https://online.visual-paradigm.com/community/share/arvan-challenge-flow)
+
+You can see the **ERD** of this service via this like:
+[**ERD**](https://online.visual-paradigm.com/community/share/arvan-challenge-erd)
+
+Open and click Edit This Design
 
 ### Framework
 This service was made based on a simple framework made by myself (in a limited time). I'm not interested in `reinvent the wheel` myself!! My idea behind this is to dig into the Go language deeper. It has following features:
